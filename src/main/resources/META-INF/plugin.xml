@@ -7,17 +7,18 @@
         <![CDATA[
 <p>
     This plugin provides both real-time and on-demand scanning
-    of Java files with CheckStyle 5.5 from within IDEA.
+    of Java files with CheckStyle 5.6 from within IDEA.
 </p>
         ]]>
     </description>
-    <version>3.9.1</version>
+    <version>3.9.2</version>
     <idea-version since-build="111.41"/>
     <vendor url="http://infernus.org/" email="james@infernus.org">James Shiell</vendor>
 
     <change-notes>
         <![CDATA[
 <ul>
+    <li>3.9.2: Fixed: Dependent modules are now probably included when searching for custom exceptions (#42).</li>
     <li>3.9.1: Fixed: Default rules are invalid with CS5.6.</li>
     <li>3.9: Fixed: Match on leading project path causes tokenisation silliness (#9).</li>
     <li>3.9: New: Updated CheckStyle to 5.6.</li>

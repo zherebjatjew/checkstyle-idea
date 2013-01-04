@@ -1,10 +1,10 @@
 CheckStyle-IDEA
 ---------------
-(c) Copyright 2006-2012 CheckStyle-IDEA Contributors
+(c) Copyright 2006-2013 CheckStyle-IDEA Contributors
 
 https://github.com/jshiell/checkstyle-idea
 
-A plug-in for JetBrains' IntelliJ IDEA 11 which provides real-time feedback
+A plug-in for JetBrains' IntelliJ IDEA 12 which provides real-time feedback
 against a given CheckStyle (http://checkstyle.sourceforge.net/)
 profile by way of an inspection.
 
@@ -149,6 +149,7 @@ LICENCE file.
 Version History
 ---------------
 
+3.9.2  - Fixed: Dependent modules are now probably included when searching for custom exceptions (#42).
 3.9.1 - Fixed: Default rules are invalid with CS5.6.
 3.9   - Fixed: Match on leading project path causes tokenisation silliness (#9).
 3.9   - New: Updated CheckStyle to 5.6.
